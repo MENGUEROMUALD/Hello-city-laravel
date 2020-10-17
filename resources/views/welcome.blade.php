@@ -10,12 +10,12 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body>
-        <h1>Bienvenue sur Hello-city</h1>
+        <h1>Bienvenue à Douala</h1>
 
         <p>Il est actuellement {{ date("H:i",time()) }}</p>
 
         <footer>
-            <p>&copy; Copyright {{date('Y',time())}} &middot; <a href="#">A propros</a></p>
+            <p>&copy; Copyright {{date('Y',time())}} &middot; <a href="/a-propos">A propros</a></p>
         </footer>
     </body>
 </html>
