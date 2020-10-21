@@ -2,9 +2,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function(){
-    return view('welcome');
+    return view('pages/welcome');
 });
 
 Route::get('/a-propos',function(){
-    return view('apropos');
+    return view('pages/apropos');
 });
