@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Hello-city</title>
+        <title>@yield('title','Hello-city')</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -13,7 +13,7 @@
 
 @yield('contenu')
         <footer>
-            <p>&copy; Copyright {{date('Y',time())}} &middot; <a href="/a-propos">A propros</a></p>
+            <p>&copy; Copyright {{date('Y',time())}} &middot; @yield('link')</p>
         </footer>
     </body>
 </html>

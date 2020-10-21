@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('title','A-propos | Hello-city')
+
 @section('contenu')
     <p>Contruit avec &hearts; par ROMUALD MENGUE</p>
 
