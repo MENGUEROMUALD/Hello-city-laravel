@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('title','A-propos | '.env('APP_NAME'))
+@section('title','A-propos | '.config('app.name'))
 
 @section('contenu')
     <p>Contruit avec &hearts; par ROMUALD MENGUE</p>
