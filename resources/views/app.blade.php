@@ -14,7 +14,7 @@
 @yield('contenu')
         <footer>
             <p>&copy; Copyright {{date('Y',time())}} &middot;
-                <a href="/a-propos">A propros</a>
+                <a href="{{ route('apropos')}}">A propros</a>
             </p>
         </footer>
     </body>
