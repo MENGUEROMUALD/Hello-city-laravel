@@ -1,4 +1,4 @@
-@extends('app')
+@extends('layouts/app')
 
 @section('contenu')
         <h1 class="text-black-400 font-semibold text-3xl sm:text-5xl mt-12 mb-10">Bienvenue à Douala</h1>
