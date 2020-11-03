@@ -4,7 +4,7 @@
 
 @section('contenu')
 
-    <img src="/images/img2.jpg" alt="Romy2" width="10%" height="10%">
+    <img src="{{ asset('images/img2.jpg') }}" alt="Romy2" width="10%" height="10%">
 
     <p>Contruit avec &hearts; par ROMUALD MENGUE</p>
 
