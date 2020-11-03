@@ -13,9 +13,11 @@
 
 @yield('contenu')
         <footer>
-            <p>&copy; Copyright {{date('Y',time())}} &middot;
-                <a href="{{ route('apropos')}}">A propros</a>
+            <p>&copy; Copyright {{date('Y',time())}}
+            @if(!Route::is('apropos')) 
+                &middot;<a href="{{ route('apropos')}}">A propros</a>
             </p>
+            @endif
         </footer>
     </body>
 </html>
